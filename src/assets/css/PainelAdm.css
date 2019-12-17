@@ -1,0 +1,135 @@
+.navbar {
+    overflow: hidden;
+    background-color: #202020e5;
+  }
+
+  .navflex{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar h1 {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .tituloflex{
+    display: flex;
+    align-items: flex-end;
+  }
+  .usuarioinfo{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .navalgo{
+      display: flex;
+  }
+  .imgusu{
+      max-width: 50px;
+  }
+  .btns{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+  }
+  .admcentro{
+      text-align: center;
+      background-color: #202020;
+      height: 67vh;
+  }
+  .admcentro h2 {
+      color: #fff;
+      margin: 0;
+  }
+  .esquerda{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around
+  }
+  .englobo{
+      display: flex;
+      justify-content: space-around;
+      height: 40vh;
+      width: 70%;
+  }
+  .nomeusu{
+    color: #fff;
+    margin-right: 10px;
+  }
+  .linkbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .listabar{
+    width: 400px;
+    align-self: center;
+  }
+  .linkbar li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #BCBCBC
+  }
+  .linkbar li a:hover{
+    color: #fff;
+    font-weight: bold
+  }
+  .lupa{
+    width: 30px;
+    margin-right: 55px;
+  }
+  .navbar2{
+    overflow: hidden;
+    background-color: #202020;
+  }
+  .listabar h2 {
+    color: white
+  }

@@ -1,0 +1,40 @@
+img{
+  max-width: 400px;
+}
+.App{
+  background-color: #202020;
+  color: #fff;
+}
+.nav_bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  width: 90%;
+  margin: auto;
+}
+.conteudo_principal{
+  display: flex;
+  flex-direction: column;
+}
+
+.frase_principal{
+  text-align: center;
+}
+.conteudo{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px; 
+  font-size: 1.5em;
+  margin-bottom: 25px;
+}
+.btn{
+  color: #fff;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: red;
+  margin: 21px;
+  padding: 10px;
+}

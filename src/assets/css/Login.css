@@ -1,0 +1,34 @@
+.Login{
+    background-image: url(../img/Top-10-dos-melhores-filmes-mais-bem-cotados-no-IMDB.png);
+    height: 100vh;
+}
+
+.redondola{
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #161616;
+}
+.cinzinha{
+    height: 100vh;
+}
+.form_Login{
+
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputs input{
+    border-radius: 50px;
+    width: 80%;
+}
+.centrao{
+    display: flex;
+    justify-content: center;
+}

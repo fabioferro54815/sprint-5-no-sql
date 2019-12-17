@@ -1,0 +1,19 @@
+main{
+  background-color: #202020;
+}
+.titulolanca{
+  color: #fff;
+  padding-top: 110px
+}
+.busca{
+  border-radius: 30px;
+}
+.imgLancamento{
+  max-width: 400px;
+  max-height: 500px;
+}
+.navezera{
+  position: fixed;
+  z-index: 10000;
+  width: 100%
+}
